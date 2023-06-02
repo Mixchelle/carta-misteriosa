@@ -1,0 +1,182 @@
+.newspaper {
+  background-color: rgb(250, 235, 215);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: rgb(0, 128, 128);
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url(images/pink-pattern.png);
+  color: rgb(255, 0, 255);
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.harrypotter {
+  background-color: #e9d8a6;
+  color: #6c462c;
+  font-family: "Harry Potter", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+.naruto {
+  background-color: #f7d4ab;
+  color: #e74c3c;
+  font-family: "Naruto", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+.starwars {
+  background-color: #000000;
+  color: #ffd700;
+  font-family: "Star Jedi", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+.marvel {
+  background-color: #ff0000;
+  color: #ffffff;
+  font-family: "Bangers", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+.pokemon {
+  background-color: #ffcb05;
+  color: #333333;
+  font-family: "Pokemon Solid", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
+}
+
+.rotateright {
+  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+}
+
+.skewleft {
+  transform: matrix(1, 0, 0)
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+body {
+  color: #0c0b0b;
+  font-size: large;
+}
+
+#titulo {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#carta-gerada span {
+  border: 2px solid #efebeb;
+  align-items: center;
+  text-align: center;
+  padding: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+/* Estilos para botões */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0a0a0a;
+  color: #d7d3d3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.button:hover {
+  background-color: #072207;
+}
+
+/* Estilos para inputs */
+.input {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  border: 3px solid #ccc;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px #4a90e2;
+}
+
+.a{
+border: #f8eeee 5px solid;
+margin-top: 50px;
+padding: 200px;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+  color: #d7d3d3;
+  font-size: 70px; 
+  font-family: "Ninja Naruto", Arial, sans-serif;
+}
+
+p{
+  color: #d7d3d3;
+  font-size: 20px;
+}
